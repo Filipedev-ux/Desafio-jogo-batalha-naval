@@ -94,10 +94,10 @@ int main() {
         tentativas--;
 
         if (acertos == NAVIOS) {
-            printf("\nParabens! Voce afundou todos os navios!\n");
+            printf("\nParabens! Voce afundou todos os navios! 🏆\n");
             exibirTabuleiro(tabuleiroVisivel);
         } else if (tentativas == 0) {
-            printf("\nFim de jogo! Voce ficou sem tentativas.\n");
+            printf("\nFim de jogo! Voce ficou sem tentativas. 👎\n");
             printf("Os navios estavam em:\n");
             for(int i = 0; i < TAMANHO; i++){
                 for(int j = 0; j < TAMANHO; j++){
